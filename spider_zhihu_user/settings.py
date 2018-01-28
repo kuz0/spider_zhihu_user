@@ -65,7 +65,7 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'spider_zhihu_user.pipelines.MongoPipeline': 300,
+   'spider_zhihu_user.pipelines.MongodbPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
